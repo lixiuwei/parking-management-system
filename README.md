@@ -6,13 +6,13 @@ homework
 import java.io.*;
 public class Method
 {
-	private int intinput() throws IOException,NumberFormatException
-	{
-		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-		String str=br.readLine();
-		int i=Integer.parseInt(str);
-		return i;
-	}
+      private int intinput() throws IOException,NumberFormatException
+      {
+            BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+            String str=br.readLine();
+            int i=Integer.parseInt(str);
+            return i;
+      }
 	private String stringinput() throws IOException
 	{
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
